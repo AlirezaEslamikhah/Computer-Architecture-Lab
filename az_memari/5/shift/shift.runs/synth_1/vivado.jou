@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Sun Dec  4 16:55:40 2022
+# Process ID: 14212
+# Current directory: C:/Users/lenovo/Desktop/term5/az_memari/5/shift/shift.runs/synth_1
+# Command line: vivado.exe -log cfg_tb_pipo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cfg_tb_pipo.tcl
+# Log file: C:/Users/lenovo/Desktop/term5/az_memari/5/shift/shift.runs/synth_1/cfg_tb_pipo.vds
+# Journal file: C:/Users/lenovo/Desktop/term5/az_memari/5/shift/shift.runs/synth_1\vivado.jou
+# Running On: DESKTOP-CNEAI22, OS: Windows, CPU Frequency: 2592 MHz, CPU Physical cores: 6, Host memory: 17041 MB
+#-----------------------------------------------------------
+source cfg_tb_pipo.tcl -notrace

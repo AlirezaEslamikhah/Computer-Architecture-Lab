@@ -1,0 +1,35 @@
+
+*** Running vivado
+    with args -log cfg_tb_pipo.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source cfg_tb_pipo.tcl
+
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source cfg_tb_pipo.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental C:/Users/lenovo/Desktop/term5/az_memari/5/shift/shift.srcs/utils_1/imports/synth_1/pipo.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/lenovo/Desktop/term5/az_memari/5/shift/shift.srcs/utils_1/imports/synth_1/pipo.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top cfg_tb_pipo -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26048
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1411.586 ; gain = 0.000
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-439] module 'cfg_tb_pipo' not found
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1411.586 ; gain = 0.000
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+7 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  4 16:55:52 2022...
